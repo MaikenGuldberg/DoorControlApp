@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorControlApp", "DoorControlApp\DoorControlApp.csproj", "{255C6F0F-051A-42FF-AB80-A443AF062A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorControlApp.Test.Unit", "DoorControlApp.Test.Unit\DoorControlApp.Test.Unit.csproj", "{926C86D5-259C-4415-9B80-F1672D48DBA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{255C6F0F-051A-42FF-AB80-A443AF062A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255C6F0F-051A-42FF-AB80-A443AF062A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255C6F0F-051A-42FF-AB80-A443AF062A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255C6F0F-051A-42FF-AB80-A443AF062A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926C86D5-259C-4415-9B80-F1672D48DBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926C86D5-259C-4415-9B80-F1672D48DBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926C86D5-259C-4415-9B80-F1672D48DBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926C86D5-259C-4415-9B80-F1672D48DBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {612AC6AC-17F5-4324-9571-865564DB384E}
+	EndGlobalSection
+EndGlobal
