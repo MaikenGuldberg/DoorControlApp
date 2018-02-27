@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
+using NSubstitute;
 
 namespace DoorControlApp.Test.Unit
 {
@@ -11,12 +12,20 @@ namespace DoorControlApp.Test.Unit
     public class DoorControlUnitTests
     {
         private DoorControl _uut;
+        private IDoor _doorFake;
+        private IAlarm _alarmFake;
+        private IEntryNotification _entryNotificationFake;
+        private IUserValidation _userValidationFake;
 
         [SetUp]
 
         public void SetUp()
         {
-            _uut = new DoorControl();
+            _doorFake = Substitute.For<IDoor>();
+            _alarmFake = Substitute.For<IAlarm>();
+            _entryNotificationFake = Substitute.For<IEntryNotification>();
+            _userValidationFake = Substitute.For<IUserValidation>();
+            _uut = new DoorControl(_doorFake,_alarmFake,_entryNotificationFake,_userValidationFake);
         }
 
         [Test]
