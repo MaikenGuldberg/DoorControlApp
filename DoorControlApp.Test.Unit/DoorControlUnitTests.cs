@@ -18,5 +18,12 @@ namespace DoorControlApp.Test.Unit
         {
             _uut = new DoorControl();
         }
+
+        [Test]
+
+        public void Test_Jenkins_Test()
+        {
+            
+        }
     }
 }
