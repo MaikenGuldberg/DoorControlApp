@@ -40,8 +40,12 @@ namespace DoorControlApp
 
                     case DState.Open:
                         break;
- 
+
                 }
+            }
+            else
+            {
+                _entryNotification.NotifyEntryDenied();
             }
         }
 
